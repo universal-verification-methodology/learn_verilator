@@ -45,7 +45,7 @@ Videos and decks are optional per module. Generate with the **module-slides** sk
 ## Browse or clone
 
 - **Browser labs:** [https://universal-verification-methodology.github.io/learning/tools/](https://universal-verification-methodology.github.io/learning/tools/)
-- **Legacy:** [`learn_verilator_iverilog`](https://github.com/universal-verification-methodology/learn_verilator_iverilog)
+- **In-course hello:** [`examples/verilator-hello/`](examples/verilator-hello/)
 - **Syllabus (parent):** [`syllabus.md` § learn_verilator](https://github.com/universal-verification-methodology/learning/blob/main/syllabus.md#7-learn_verilator)
 
 ```bash
@@ -83,7 +83,7 @@ Details: [docs/TWO_TRACKS.md](docs/TWO_TRACKS.md).
 
 | Track | Practice surface | Start here |
 |-------|------------------|------------|
-| **A — Real Verilator** | Local Verilator · [`../learn_verilator_iverilog`](../learn_verilator_iverilog/) | [docs/TWO_TRACKS.md](docs/TWO_TRACKS.md) |
+| **A — Real Verilator** | Local Verilator · [`examples/verilator-hello/`](examples/verilator-hello/) | [docs/TWO_TRACKS.md](docs/TWO_TRACKS.md) |
 | **B — Browser lab** | Simulation literacy + metrics | [tools index](https://universal-verification-methodology.github.io/learning/tools/) |
 
 Lab status snapshot: **9 shipped** · **0 planned** browser labs; module 10 is offline (see [docs/MODULES.md](docs/MODULES.md)).

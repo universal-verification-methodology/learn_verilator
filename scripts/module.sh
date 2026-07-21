@@ -30,11 +30,11 @@ case "$ACTION" in
     else
       echo "[INFO] g++/clang++ not found (needed for Verilator C++ TB)"
     fi
-    LEGACY="$(cd "$ROOT/.." && pwd)/learn_verilator_iverilog"
-    if [[ -d "$LEGACY" ]]; then
-      echo "[OK] legacy course present: $LEGACY"
+    HELLO="$ROOT/examples/verilator-hello"
+    if [[ -d "$HELLO" ]]; then
+      echo "[OK] in-course hello: $HELLO"
     else
-      echo "[INFO] legacy learn_verilator_iverilog not checked out"
+      echo "[INFO] examples/verilator-hello missing"
     fi
     [[ -f "$MOD_DIR/EXAMPLES.md" ]] && echo "[OK] EXAMPLES.md"
     [[ -f "$MOD_DIR/CHECKLIST.md" ]] && echo "[OK] CHECKLIST.md"

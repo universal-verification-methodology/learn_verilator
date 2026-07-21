@@ -2,24 +2,24 @@
 
 ## Track A — Real Verilator
 
-Practice with a local Verilator install + C++ / Makefile examples.
+Practice with a real Verilator install + C++ / Makefile flow.
 
-- Prompts under each `moduleNN-*/EXAMPLES.md`
-- Full examples in [`../learn_verilator_iverilog/`](../learn_verilator_iverilog/)
+- In-course hello: [`../examples/verilator-hello/`](../examples/verilator-hello/)
 - Self-check: `./scripts/module.sh NN --check`
-- Module 10 is **offline-only** (course Makefile)
+- Module 10 is the dedicated offline build/run
+
+Use this track for **fidelity**.
 
 ## Track B — Browser lab
 
+Simulation literacy sketches on the learning platform.
+
 - Local tools: http://127.0.0.1:8080/tools/
 - Live: https://universal-verification-methodology.github.io/learning/tools/
-- **Shipped:** `tb-clock-reset`, `sim-pipeline`, `wave-dump`, `dpi-cpp-tb`, `iverilog-vs-verilator`, `verif-metrics`, `verilator-lint-lab`, `verilator-trace`, `verilator-public`
-- All syllabus browser labs for this course are **Shipped** (module 10 remains offline-only)
-- Optional shared literacy: `waveform-lab`, `tb-anatomy` (shipped elsewhere)
 
 ## Recommended path
 
-1. Intro + install Verilator
-2. Tool chooser → pipeline → lint / C++ TB / clock-reset
-3. Trace, wave dump, public, metrics (browser and/or real runs)
-4. Module 10 offline build+run
+1. Intro + iverilog vs Verilator chooser
+2. Lint / C++ TB / trace / metrics labs (Track B + notes)
+3. Module 10 — build and run `examples/verilator-hello`
+4. Wrap → Icarus / UVM / HDL simulator as needed

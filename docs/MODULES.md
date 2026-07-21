@@ -19,4 +19,4 @@ Lab-driven syllabus (pass 3). Full product syllabus: [../../syllabus.md](../../s
 
 ## Dual tracks
 
-See [TWO_TRACKS.md](TWO_TRACKS.md). Legacy: [`../learn_verilator_iverilog/`](../learn_verilator_iverilog/).
+See [TWO_TRACKS.md](TWO_TRACKS.md). Hello: [`../examples/verilator-hello/`](../examples/verilator-hello/).
