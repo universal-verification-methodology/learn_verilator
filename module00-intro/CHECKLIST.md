@@ -4,7 +4,7 @@
 
 - [ ] Verilator install attempted (or noted why deferred)
 - [ ] Opened this repo at `courses/learn_verilator`
-- [ ] Peeked at [`../learn_verilator_iverilog/`](../learn_verilator_iverilog/)
+- [ ] Peeked at [`../examples/verilator-hello/`](../examples/verilator-hello/)
 - [ ] Opened the [tools index](http://127.0.0.1:8080/tools/index.html) Simulation literacy section once
 
 ## Mindset

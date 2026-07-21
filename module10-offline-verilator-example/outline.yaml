@@ -3,66 +3,69 @@ footer: learn_verilator — offline verilator example
 slides:
 - type: title
   title: Offline capstone
-  subtitle: This module has no graded browser lab
-  notes: This module has no graded browser lab. Your job is to build and run a real
-    Verilator example offline using the legacy Verilator course tree bundled beside
-    this path. You will prove the toolchain end to end—not merely click through a
-    diagram.
+  subtitle: Browser sketches taught lint, coverage, and metrics, they do not compile
+    a DUT with Verilator
+  notes: 'Browser sketches taught lint, coverage, and metrics—they do not compile
+    a DUT with Verilator. This module is Track A only: you build and run the in-course
+    and-gate hello on your machine. You leave with a command line you can repeat—change
+    directory, make run, read pass or fail. No browser lab required here—just the
+    live toolchain.'
 - type: bullets
-  title: Where to work
+  title: In-course verilator-hello
   bullets:
-  - Open the sibling learn Verilator Icarus legacy repository from the monorepo courses
-    folder
-  - Follow its README and module scripts for a small Verilator plus C++ or Verilog
-    testbench
-  - The exact target names vary by legacy module, that is normal
-  - Capture the commands you used and whether the run passed
-  notes: Open the sibling learn Verilator Icarus legacy repository from the monorepo
-    courses folder. Follow its README and module scripts for a small Verilator plus
-    C++ or Verilog testbench example. The exact target names vary by legacy module—that
-    is normal. Capture the commands you used and whether the run passed.
+  - The monorepo ships a minimal Verilator example beside this curriculum
+  - No UVM and no cocotb, just Verilator, make, and a binary you execute
+  - Prerequisites are Verilator on your path plus a C++ toolchain
+  - Read the hello README for the exact layout before you run
+  notes: 'The monorepo ships a minimal Verilator example beside this curriculum: a
+    Makefile, a small and-gate DUT, and a C++ testbench harness. No UVM and no cocotb—just
+    Verilator, make, and a binary you execute. Prerequisites are Verilator on your
+    path plus a C++ toolchain. Read the hello README for the exact layout before you
+    run.'
 - type: bullets
-  title: A typical command shape
+  title: Offline workflow
   bullets:
-  - Change into the legacy course root
-  - You should see compile, build, and run stages complete with a pass or an explainable
-    fail
-  - Write the command sequence in your notes as if a teammate must replay it tomorrow
-  notes: Change into the legacy course root, pick a minimal example target, run make
-    or the documented script, then execute the produced binary or test runner. You
-    should see compile, build, and run stages complete with a pass or an explainable
-    fail. Write the command sequence in your notes as if a teammate must replay it
-    tomorrow.
-- type: bullets
-  title: What to record
-  bullets:
-  - Note Verilator version, the example name, pass or fail
-  - If something failed, record the stage, compile, link, or run, and the first error
+  - Open examples/verilator-hello next to this course
+  - Change into that folder
+  - Run make run
+  - Watch compile and link finish, then stdout showing the AND truth table
+  - Capture the command and the pass or fail line in your notes
+  - If something fails, record the stage, compile, link, or run, and the first error
     line
-  - Fixes belong in your notes too; this is practice, not a hidden autograder
-  notes: Note Verilator version, the example name, pass or fail, and one artifact—log
-    snippet, wave file, or stdout line—that proves the run happened. If something
-    failed, record the stage—compile, link, or run—and the first error line. Fixes
-    belong in your notes too; this is practice, not a hidden autograder.
+  notes: Open examples/verilator-hello next to this course. Change into that folder.
+    Run make run—the Makefile invokes Verilator to compile the DUT and harness, links
+    a binary under obj_dir, and runs it. Watch compile and link finish, then stdout
+    showing the AND truth table. Capture the command and the pass or fail line in
+    your notes. If something fails, record the stage—compile, link, or run—and the
+    first error line.
+- type: code
+  title: Offline workflow — try these
+  code: 'cd courses/learn_verilator/examples/verilator-hello
+
+    make run
+
+    '
+  notes: ''
 - type: bullets
   title: Pitfalls to watch
   bullets:
   - Do not substitute a browser lab for this offline requirement
-  - Do not assume one Makefile from a blog matches the legacy tree, read the local
-    README
-  - Do not skip capturing results; module eleven assumes you attempted a real run
-  - And if install is broken, fix install before blaming RTL
-  notes: Do not substitute a browser lab for this offline requirement. Do not assume
-    one Makefile from a blog matches the legacy tree—read the local README. Do not
-    skip capturing results; module eleven assumes you attempted a real run. And if
-    install is broken, fix install before blaming RTL.
+  - Make must run from the hello folder that owns the Makefile
+  - A sketch pass is not a Verilator pass, offline needs a real binary on your path
+  - The first compile can take a minute; later rebuilds reuse objects
+  - If Verilator is missing, install it before blaming RTL
+  notes: Do not substitute a browser lab for this offline requirement. Make must run
+    from the hello folder that owns the Makefile—the wrong directory fails quietly.
+    A sketch pass is not a Verilator pass—offline needs a real binary on your path.
+    The first compile can take a minute; later rebuilds reuse objects. If Verilator
+    is missing, install it before blaming RTL.
 - type: bullets
   title: Your turn
   bullets:
   - Complete the offline checklist
   - 'Optional stretch: produce a short trace from the same example'
   - When you are ready, take the short quiz, then continue to the wrap module
-  notes: 'Complete the offline checklist: one real build and run from the legacy tree,
+  notes: 'Complete the offline checklist: one real build and run from examples/verilator-hello,
     commands and outcome recorded. Optional stretch: produce a short trace from the
     same example. When you are ready, take the short quiz, then continue to the wrap
     module.'

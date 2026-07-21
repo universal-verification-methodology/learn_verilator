@@ -1,6 +1,6 @@
 # Module 10 examples — Build & run a Verilator example
 
-Offline only. Use the **in-course** hello (not the ignored legacy combined tree).
+Offline only. Use the **in-course** hello.
 
 ## Prompt
 

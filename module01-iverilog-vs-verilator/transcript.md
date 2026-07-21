@@ -20,7 +20,7 @@ In the browser chooser lab, load the starter example and work through matched sc
 
 ## Slide 4 — Real Verilator practice
 
-In Track A, open this module’s EXAMPLES prompts and the legacy course tree. Run one tiny design with Icarus for event-style sanity, then sketch how the same block would enter a Verilator compile-to-binary flow. You do not need a perfect port—just articulate what changes when delays disappear and a C++ main appears.
+In Track A, open this module’s EXAMPLES prompts and this course’s examples. Run one tiny design with Icarus for event-style sanity, then sketch how the same block would enter a Verilator compile-to-binary flow. You do not need a perfect port—just articulate what changes when delays disappear and a C++ main appears.
 
 ## Slide 5 — Pitfalls to watch
 

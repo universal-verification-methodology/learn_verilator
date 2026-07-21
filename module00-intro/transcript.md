@@ -14,7 +14,7 @@ Across the modules you will choose when Verilator beats Icarus, walk the compile
 
 ## Slide 3 — Two tracks, one idea
 
-Track A is real Verilator on your machine: a C++ toolchain, Makefiles, and examples in the legacy Verilator course tree. Track B is the platform’s simulation literacy labs—browser challenges for chooser, pipeline, lint, trace, and metrics ideas. You may do either track, or both. A good rhythm is browser lab first for the vocabulary, then Track A for fidelity.
+Track A is real Verilator on your machine: a C++ toolchain, Makefiles, and examples in examples/verilator-hello. Track B is the platform’s simulation literacy labs—browser challenges for chooser, pipeline, lint, trace, and metrics ideas. You may do either track, or both. A good rhythm is browser lab first for the vocabulary, then Track A for fidelity.
 
 ## Slide 4 — Set up Track A
 

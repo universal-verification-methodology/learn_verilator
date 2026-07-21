@@ -8,7 +8,7 @@
       "type": "multiple_choice",
       "prompt": "Module ten’s required practice surface is…",
       "choices": [
-        "Track A offline build and run in the legacy Verilator tree",
+        "Track A offline build and run in examples/verilator-hello",
         "Only a browser chooser lab",
         "Only reading slides with no commands",
         "Only UVM sequences"

@@ -6,37 +6,44 @@ paginate: true
 
 # Offline capstone
 
-This module has no graded browser lab
+Browser sketches taught lint, coverage, and metrics, they do not compile a DUT with Verilator
 
 ---
 
-## Where to work
-- Open the sibling learn Verilator Icarus legacy repository from the monorepo courses folder
-- Follow its README and module scripts for a small Verilator plus C++ or Verilog testbench
-- The exact target names vary by legacy module, that is normal
-- Capture the commands you used and whether the run passed
+## In-course verilator-hello
+- The monorepo ships a minimal Verilator example beside this curriculum
+- No UVM and no cocotb, just Verilator, make, and a binary you execute
+- Prerequisites are Verilator on your path plus a C++ toolchain
+- Read the hello README for the exact layout before you run
 
 ---
 
-## A typical command shape
-- Change into the legacy course root
-- You should see compile, build, and run stages complete with a pass or an explainable fail
-- Write the command sequence in your notes as if a teammate must replay it tomorrow
+## Offline workflow
+- Open examples/verilator-hello next to this course
+- Change into that folder
+- Run make run
+- Watch compile and link finish, then stdout showing the AND truth table
+- Capture the command and the pass or fail line in your notes
+- If something fails, record the stage, compile, link, or run, and the first error line
 
 ---
 
-## What to record
-- Note Verilator version, the example name, pass or fail
-- If something failed, record the stage, compile, link, or run, and the first error line
-- Fixes belong in your notes too; this is practice, not a hidden autograder
+## Offline workflow — try these
+
+```
+cd courses/learn_verilator/examples/verilator-hello
+make run
+
+```
 
 ---
 
 ## Pitfalls to watch
 - Do not substitute a browser lab for this offline requirement
-- Do not assume one Makefile from a blog matches the legacy tree, read the local README
-- Do not skip capturing results; module eleven assumes you attempted a real run
-- And if install is broken, fix install before blaming RTL
+- Make must run from the hello folder that owns the Makefile
+- A sketch pass is not a Verilator pass, offline needs a real binary on your path
+- The first compile can take a minute; later rebuilds reuse objects
+- If Verilator is missing, install it before blaming RTL
 
 ---
 

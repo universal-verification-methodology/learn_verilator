@@ -24,7 +24,7 @@ Before you compile anything, pick the right engine for the job
 ---
 
 ## Real Verilator practice
-- In Track A, open this module’s EXAMPLES prompts and the legacy course tree
+- In Track A, open this module’s EXAMPLES prompts and this course’s examples
 - Run one tiny design with Icarus for event-style sanity
 - You do not need a perfect port
 

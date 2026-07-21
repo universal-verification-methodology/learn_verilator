@@ -20,7 +20,7 @@ In the browser lab, load the starter and identify host, model, and eval loop reg
 
 ## Slide 4 — Real Verilator practice
 
-In Track A, open a minimal C++ host example from EXAMPLES or the legacy tree. Point to where the model is constructed, where eval is called in a loop, and where the run ends. If DPI appears, name one function it exports or imports—optional detail, not the whole story.
+In Track A, open a minimal C++ host example from EXAMPLES or the in-course hello. Point to where the model is constructed, where eval is called in a loop, and where the run ends. If DPI appears, name one function it exports or imports—optional detail, not the whole story.
 
 ## Slide 5 — Pitfalls to watch
 

@@ -35,7 +35,7 @@
       "prompt": "If you mostly did browser labs, a good wrap action is…",
       "choices": [
         "Reproduce one compile-run-trace cycle in Track A",
-        "Delete the legacy examples tree",
+        "Delete the examples tree",
         "Disable all warnings forever",
         "Never run Verilator offline"
       ],

@@ -13,12 +13,12 @@
 | **A — Real Verilator** | Local Verilator + C++ / Makefile examples | Fidelity, install, real VCD/FST |
 | **B — Browser lab** | Conceptual literacy labs on the platform | Chooser / pipeline / lint diagrams |
 
-Sibling: **learn_iverilog**. Combined legacy: [`../learn_verilator_iverilog/`](../learn_verilator_iverilog/).  
+Sibling: **learn_iverilog**. Sibling path: [`../examples/verilator-hello/`](../examples/verilator-hello/).  
 Do **not** re-teach UVM here — see **learn_uvm2017**.
 
 ## Setup (Track A)
 
-1. Install Verilator (and a C++ toolchain) — see install scripts under [`../learn_verilator_iverilog/`](../learn_verilator_iverilog/).
+1. Install Verilator (and a C++ toolchain) — see install scripts under [`../examples/verilator-hello/`](../examples/verilator-hello/).
 2. Confirm `verilator --version` works.
 3. Open this repo at `courses/learn_verilator`.
 

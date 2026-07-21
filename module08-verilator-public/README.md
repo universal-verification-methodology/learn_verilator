@@ -13,7 +13,7 @@ After this module you can explain and practice the ideas taught by **`verilator-
 ### Track A — Real Verilator (hands-on)
 
 1. Open [EXAMPLES.md](EXAMPLES.md) and work the prompts.
-2. Complete [CHECKLIST.md](CHECKLIST.md); use [`../learn_verilator_iverilog/`](../learn_verilator_iverilog/) when helpful.
+2. Complete [CHECKLIST.md](CHECKLIST.md); use [`../examples/verilator-hello/`](../examples/verilator-hello/) when helpful.
 3. Optional self-check: `./scripts/module.sh 08 --check` (from course root).
 
 ### Track B — Browser lab (online)

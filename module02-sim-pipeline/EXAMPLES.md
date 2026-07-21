@@ -6,7 +6,7 @@ Track A (Verilator tool literacy). Browser lab may still be planned.
 
 1. Restate the core idea of **Compile → elaborate → run** in one sentence.
 2. Sketch one command line or diagram (lint flags, `--trace`, public, …).
-3. Optional: peek at [`../learn_verilator_iverilog/`](../learn_verilator_iverilog/) for a matching Verilator example.
+3. Optional: peek at [`../examples/verilator-hello/`](../examples/verilator-hello/) for a matching Verilator example.
 
 ## Stretch
 

@@ -23,7 +23,7 @@ Verilator’s native cosim shape is a C++ host driving a generated model pointer
 ---
 
 ## Real Verilator practice
-- In Track A, open a minimal C++ host example from EXAMPLES or the legacy tree
+- In Track A, open a minimal C++ host example from EXAMPLES or the in-course hello
 - Point to where the model is constructed, where eval is called in a loop
 - If DPI appears
 

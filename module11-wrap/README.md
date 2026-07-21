@@ -8,7 +8,7 @@
 
 - Choose Verilator vs iverilog for a given job
 - Explain lint, C++/DPI TB, `--trace`, and `/*verilator public*/` roles
-- Build and run at least one offline Verilator example from the legacy course
+- Build and run at least one offline Verilator example from the in-course hello
 - Point at metrics ideas (pass rate / coverage concepts) without claiming a full UVM flow
 
 ## Dual-track recap
